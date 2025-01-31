@@ -179,19 +179,3 @@ end)
 
 UICorner_7.Parent = scp096
 
-invisible.Name = "invisible"
-invisible.Parent = Fundohub
-invisible.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
-invisible.BorderColor3 = Color3.fromRGB(0, 0, 0)
-invisible.BorderSizePixel = 0
-invisible.Position = UDim2.new(0.489011675, 0, 0.448328227, 0)
-invisible.Size = UDim2.new(0, 183, 0, 42)
-invisible.Font = Enum.Font.SourceSans
-invisible.Text = "invisible"
-invisible.TextColor3 = Color3.fromRGB(185, 25, 25)
-invisible.TextSize = 14.000
-invisible.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/glrt/invisible-fe/refs/heads/main/fe_invisible.lua'))()'))()'))()
-end)
-
-UICorner_8.Parent = invisible
